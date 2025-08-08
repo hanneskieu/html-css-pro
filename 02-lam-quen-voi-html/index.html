@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Css Pro</title>
+    <style>
+      .example {
+        color: red;
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      Hôm nay <span class="example">trời</span> đẹp thế nhờ!
+
+      <h1>Nội dung tiêu đề chính</h1>
+      <h2>Nội dung tiêu đề chính</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nisi!
+      </p>
+      <b>Hannes</b>
+      <i>Hannes</i>
+      <u>Hannes</u>
+      <a href="https://fullstack.edu.vn">Go to F8</a>
+      <img
+        src="https://images.unsplash.com/photo-1754430543609-aae159c530ef?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
+      <ul>
+        <li>html</li>
+        <li>css</li>
+      </ul>
+    </div>
+
+    <div>
+      <h1>[Phần 1] Tạo dự án ReactJS với Webpack và Babel</h1>
+      <img
+        src="https://files.fullstack.edu.vn/f8-prod/user_avatars/1/64f9a2fd4e064.jpg"
+        alt=""
+      />
+      <h2>Sơn Đặng</h2>
+      <p>
+        Hôm nay mình có quay một video trong
+        <a href="https://fullstack.edu.vn/courses/reactjs" target="_blank">khóa học ReactJS</a>
+        là "Tạo dự án ReactJS với Webpack và Babel". Mình làm video này với mong
+        muốn chia sẻ cho các bạn có thể hình dung ra dự án được tạo bởi
+        "create-react-app" được xây dựng như thế nào. Các bạn có thể xem thêm
+        video hướng dẫn ở đây nhé.
+      </p>
+    </div>
+    <script>
+      const example = document.querySelector(".example");
+      //console.log(example);
+      example.onclick = function () {
+        this.innerText = "Bạn đã click vào đây!";
+        this.style.color = "green";
+      };
+    </script>
+  </body>
+</html>
+
+<!--
+	- Ngôn ngữ đánh dấu
+	- doctype, html, head, body, meta, title...
+	- meta tag: charset, viewport, og...
+	- boilerplate
+	- Các thẻ html thông dụng: h1, h2, p, b, i, u, a, img, ul, li
+ -->
